@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="Página-1" id="RRaRINvrs41XlOGLbRJq">
-    <mxGraphModel dx="2207" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3587" dy="1572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,6 +63,9 @@
             <mxPoint x="-110" y="689.57" as="sourcePoint" />
             <mxPoint x="50" y="689.57" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Oml3LfeE7QtHGDmBO0IO-14" value="construccion comparador: &#xa;tupla_agregar = ()&#xa;                                                    1    2&#xa;dataframe_a_comparar =dataframe[columna]&#xa;                                                          4&#xa;valor_o_columna_para_comparar=  0&#xa;                                          3  &#xa;signo = match case -&gt; signo seleccion&#xa;tupla_agregar= (dataframe_a_comparar signo valor_o_columna )&#xa;                                                                        4&#xa;&#xa;con_que_comparar = case entero, case otra_columna_mismo_frame&#xa;&#xa;&#xa;            &#xa;1.Seleccion dataframe&#xa;2.Seleccion columna&#xa;3.Seleccion de comparacion |- Mayor  | |- Menor    |- Igual  |&#xa;4. con que comparar:  - dato (entero flotante )| - columna dataframe actual&#xa;5.impresion de resultado" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="827" y="180" width="500" height="330" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
